@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "7muKxEpBgUlJ8ezHdPP4U+VtB4zo/05h8m2EZcuRzgH4lzqxBSTT91XX9AZkQdAmmWdrcIJvicjfhStMRLI/2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ortega\\source\\repos\\BarCodeTester\\BarCodeTester\\BarCodeTester\\BarCodeTester.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ortega\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ortega\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Ortega\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Ortega\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
+    "C:\\Users\\Ortega\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\Ortega\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

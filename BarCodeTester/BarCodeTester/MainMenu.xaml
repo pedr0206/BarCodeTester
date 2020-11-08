@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BarCodeTester.MainMenu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button BackgroundColor="#20396A" TextColor="White" x:Name="GoToScannerPageBTN" Text="Scanner" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

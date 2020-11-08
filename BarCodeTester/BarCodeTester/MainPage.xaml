@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BarCodeTester.MainPage">
+
+    <StackLayout>
+
+        <Image Source="logo_2.png" Margin="0,0,200,0" WidthRequest="250" HeightRequest="80" ></Image>
+        <Frame BackgroundColor="#20396A" Padding="20" CornerRadius="0">
+            <Label HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Image Source="parker_store_logo.png" Margin="300,0,0,0" WidthRequest="25" HeightRequest="25" ></Image>
+        </Frame>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <!--<Span Text="Learn more at "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>-->
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Button 
+            HeightRequest="100" 
+            WidthRequest="250" 
+            BackgroundColor="#20396A" 
+            TextColor="White" HorizontalOptions="CenterAndExpand"
+            Margin="0,60,0,30"
+            FontFamily="ButtonFont"
+            Padding="0,0,0,5"
+            FontSize="20"
+            BorderRadius="20"
+            BorderWidth="2"
+            BorderColor="Black" 
+            x:Name="ButtonScanDefault" 
+            Text="Scan product" />
+        <Button 
+            HeightRequest="100" 
+            WidthRequest="250" 
+            BackgroundColor="#20396A" 
+            TextColor="White" HorizontalOptions="CenterAndExpand"
+            Margin="0,60,0,30"
+            FontFamily="ButtonFont"
+            Padding="0,0,0,5"
+            FontSize="20"
+            BorderRadius="20"
+            BorderWidth="2"
+            BorderColor="Black" 
+            x:Name="ButtonListOfProducts" 
+            Text="List of products" />
+    </StackLayout>
+
+</ContentPage>

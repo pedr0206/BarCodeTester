@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BarCodeTester.UserPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logo_2.png" Margin="0,0,200,0" WidthRequest="250" HeightRequest="80" ></Image>
+            <Frame BackgroundColor="#20396A" Padding="20" CornerRadius="0">
+                <Label HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                <Image Source="parker_store_logo.png" Margin="300,0,0,0" WidthRequest="25" HeightRequest="25" ></Image>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
