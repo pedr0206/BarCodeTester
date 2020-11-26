@@ -84,7 +84,7 @@
             BorderColor="Black" 
             x:Name="OrderNow" 
             Text="Order Now!" />
-            <Entry Placeholder="Client Number" x:Name="clientnumber" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry>
+            <Entry Placeholder="Client Number" x:Name="clientnumber" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry> 
             <Entry Placeholder="Phone Number" x:Name="phonenumber" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="3" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry>
             <Entry Placeholder="Company" x:Name="company" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="4" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry>
             <Entry Placeholder="Company  CVR" x:Name="cvrnumber" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="5" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry>
