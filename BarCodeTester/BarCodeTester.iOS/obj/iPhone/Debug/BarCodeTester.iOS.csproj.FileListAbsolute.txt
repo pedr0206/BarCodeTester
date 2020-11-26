@@ -61,3 +61,11 @@ C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\obj\i
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\obj\iPhone\Debug\BarCodeTester.iOS.csproj.CopyComplete
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\obj\iPhone\Debug\BarCodeTester.iOS.exe
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\obj\iPhone\Debug\BarCodeTester.iOS.pdb
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\SQLite-net.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\System.Buffers.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\System.Memory.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll

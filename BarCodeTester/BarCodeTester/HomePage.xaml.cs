@@ -22,17 +22,17 @@ namespace BarCodeTester
 
         private void PreviousOrdersBTN_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new MainPage());
+            Navigation.PushModalAsync(new ProductList());
         }
 
         private void SavedListsBTN_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new MainPage());
+            Navigation.PushModalAsync(new ProductList());
         }
 
         private void NewOrderBTN_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new UserPage());
+            Navigation.PushModalAsync(new MainOrderPage());
         }
     }
 }

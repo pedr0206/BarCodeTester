@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BarCodeTester.MainOrderPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logo_2.png" Margin="0,0,200,0" WidthRequest="250" HeightRequest="80" ></Image>
+            <Frame BackgroundColor="#20396A" Padding="20" CornerRadius="0">
+                <Label HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                <Image Source="parker_store_logo.png" Margin="300,0,0,0" WidthRequest="25" HeightRequest="25" ></Image>
+                
+            </Frame>
+            <Button 
+            HeightRequest="50" 
+            WidthRequest="250" 
+            BackgroundColor="#20396A" 
+            TextColor="White" HorizontalOptions="Start"
+            Margin="10,5,0,30"
+            FontFamily="ButtonFont"
+            Padding="0,0,0,5"
+            FontSize="20"
+            BorderRadius="20"
+            BorderWidth="2"
+            BorderColor="Black" 
+            x:Name="UserName" 
+            Text="User Name" />
+            
+            <Button 
+            HeightRequest="50" 
+            WidthRequest="250" 
+            BackgroundColor="#20396A" 
+            TextColor="White" HorizontalOptions="Start"
+            Margin="10,5,0,30"
+            FontFamily="ButtonFont"
+            Padding="0,0,0,5"
+            FontSize="20"
+            BorderRadius="20"
+            BorderWidth="2"
+            BorderColor="Black" 
+            x:Name="DeliveryAddress" 
+            Text="Delivery Adress" />
+            
+            <Button 
+            HeightRequest="50" 
+            WidthRequest="250" 
+            BackgroundColor="#D2E7FF" 
+            TextColor="#20396A" HorizontalOptions="Start"
+            Margin="10,5,0,30"
+            FontFamily="ButtonFont"
+            Padding="0,0,0,5"
+            FontSize="20"
+            BorderRadius="20"
+            BorderWidth="2"
+            BorderColor="#20396A" 
+            x:Name="ProductID" 
+            Text="ID" />
+
+            <Button 
+            HeightRequest="50" 
+            WidthRequest="250" 
+            BackgroundColor="#20396A" 
+            TextColor="White" HorizontalOptions="Start"
+            Margin="10,5,0,30"
+            FontFamily="ButtonFont"
+            Padding="0,0,0,5"
+            FontSize="20"
+            BorderRadius="20"
+            BorderWidth="2"
+            BorderColor="Black" 
+            x:Name="ManageOrder" 
+            Text="Manage Order" />
+
+            <Button 
+            HeightRequest="100" 
+            WidthRequest="350" 
+            BackgroundColor="#20396A" 
+            TextColor="White" HorizontalOptions="CenterAndExpand"
+            Margin="0,20,0,30"
+            FontFamily="ButtonFont"
+            Padding="0,0,0,5"
+            FontSize="40"
+            BorderRadius="20"
+            BorderWidth="2"
+            BorderColor="Black" 
+            x:Name="OrderNow" 
+            Text="Order Now!" />
+            <Entry Placeholder="Client Number" x:Name="clientnumber" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry>
+            <Entry Placeholder="Phone Number" x:Name="phonenumber" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="3" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry>
+            <Entry Placeholder="Company" x:Name="company" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="4" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry>
+            <Entry Placeholder="Company  CVR" x:Name="cvrnumber" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="5" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry>
+            <Entry Placeholder="Company Role" x:Name="companyrole" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry>
+            <Entry Placeholder="Delivery Address" x:Name="deliveryaddress" PlaceholderColor="#0066ff" MaxLength="10" Grid.Row="7" Grid.ColumnSpan="2" Grid.RowSpan="1"></Entry>
+            <Editor  Placeholder="Order" x:Name="order" PlaceholderColor="#0066ff" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2"></Editor>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

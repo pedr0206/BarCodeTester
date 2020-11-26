@@ -12,7 +12,7 @@
             </Frame>
             
             <!--<Label Text="Scanning product bar code" FontSize="Title" Padding="30,10,30,10"/>-->
-            <!--<Label Text="Me suda la polla" FontSize="16" Padding="30,0,30,0"/>-->
+            <!--<Label Text="Me suda la polla" FontSize="12" Padding="30,0,30,0" x:Name="TestLabel"/>-->
             <StackLayout HorizontalOptions="CenterAndExpand">
                 <Button 
                     HeightRequest="100" 

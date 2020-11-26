@@ -506,3 +506,11 @@ C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\o
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\res\drawable\logo_hymatik.png
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\res\drawable\logo_2.png
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\res\drawable\parker_store_logo.png
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\SQLite-net.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\SQLitePCLRaw.core.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\SQLitePCLRaw.lib.e_sqlite3.android.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Buffers.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Memory.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll

@@ -10,9 +10,12 @@ C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\bin\Debug
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\BarCodeTester.dll
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\ref\BarCodeTester.dll
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\BarCodeTester.pdb
-C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\BarCodeTester.csproj.CoreCompileInputs.cache
-C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\MainMenu.xaml.g.cs
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\ProductList.xaml.g.cs
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
-C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\UserPage.xaml.g.cs
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\MainOrderPage.xaml.g.cs
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\UserListPage.xaml.g.cs
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\BarCodeTester.csproj.CoreCompileInputs.cache
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\DeliveryAddressListPage.xaml.g.cs
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester\obj\Debug\netstandard2.0\CreateUser.xaml.g.cs

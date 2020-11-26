@@ -29,6 +29,7 @@
             FontFamily="ButtonFont"
             Padding="0,0,0,5"
             FontSize="20"
+            FontAttributes="Bold"
             BorderRadius="20"
             BorderWidth="2"
             BorderColor="Black" 
