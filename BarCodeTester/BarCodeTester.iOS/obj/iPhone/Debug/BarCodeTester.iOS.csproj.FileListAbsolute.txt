@@ -69,3 +69,6 @@ C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\i
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\System.Buffers.dll
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\System.Memory.dll
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\Syncfusion.Licensing.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\Syncfusion.Compression.Portable.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.iOS\bin\iPhone\Debug\Syncfusion.Pdf.Portable.dll

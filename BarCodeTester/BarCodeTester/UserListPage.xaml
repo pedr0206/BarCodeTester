@@ -16,9 +16,9 @@
             </Grid.ColumnDefinitions>
             <StackLayout x:Name="MainStack">
             </StackLayout>
-            <StackLayout x:Name="SecondStack">
+            <!--<StackLayout x:Name="SecondStack">
                 <Button Text="Add user" x:Name="AddUserBtn"></Button>
-            </StackLayout>
+            </StackLayout>-->
 
         </Grid>
 

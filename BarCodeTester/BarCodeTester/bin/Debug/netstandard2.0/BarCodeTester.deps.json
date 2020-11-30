@@ -10,11 +10,13 @@
       "BarCodeTester/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "Syncfusion.Xamarin.Pdf": "18.3.0.51",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1560",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1",
-          "sqlite-net-pcl": "1.7.335"
+          "sqlite-net-pcl": "1.7.335",
+          "Mono.Android": "0.0.0.0"
         },
         "runtime": {
           "BarCodeTester.dll": {}
@@ -70,6 +72,34 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
             "assemblyVersion": "2.0.3.851",
             "fileVersion": "2.0.3.851"
+          }
+        }
+      },
+      "Syncfusion.Licensing/18.3.0.51": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "18.3.0.51",
+            "fileVersion": "18.3.0.51"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Compression/18.3.0.51": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "18.3451.0.51",
+            "fileVersion": "18.3451.0.51"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/18.3.0.51": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.3.0.51",
+          "Syncfusion.Xamarin.Compression": "18.3.0.51"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
+            "assemblyVersion": "18.3451.0.51",
+            "fileVersion": "18.3451.0.51"
           }
         }
       },
@@ -164,6 +194,14 @@
             "fileVersion": "2.4.1.0"
           }
         }
+      },
+      "Mono.Android/0.0.0.0": {
+        "runtime": {
+          "Mono.Android.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
       }
     }
   },
@@ -222,6 +260,27 @@
       "path": "sqlitepclraw.provider.e_sqlite3/2.0.3",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512"
     },
+    "Syncfusion.Licensing/18.3.0.51": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xIhu/6qkkofite0GEgjROcVRuERdxEQfIIFudYCXtKrWHceHolLHdUBJ/Y3PixmTAbSEKLko9FYCqLs6+/l8Jg==",
+      "path": "syncfusion.licensing/18.3.0.51",
+      "hashPath": "syncfusion.licensing.18.3.0.51.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Compression/18.3.0.51": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+kL1NHbwoJjwX840gWmcK/aSzhQgZmTkkxUvJnuX8i/Gxse1hPg6l5CzwlRyZ9PI7Cvhogt/B01p0/rHD1nsfA==",
+      "path": "syncfusion.xamarin.compression/18.3.0.51",
+      "hashPath": "syncfusion.xamarin.compression.18.3.0.51.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Pdf/18.3.0.51": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m+QAnat90qzTq98phof0ZmGFDlIbex7U4kau1XU12TwFQ6Z+oLzG4sLZ9ARlQqku2NkXqoFrnf3qOyHYp0GLew==",
+      "path": "syncfusion.xamarin.pdf/18.3.0.51",
+      "hashPath": "syncfusion.xamarin.pdf.18.3.0.51.nupkg.sha512"
+    },
     "System.Buffers/4.4.0": {
       "type": "package",
       "serviceable": true,
@@ -277,6 +336,11 @@
       "sha512": "sha512-7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
       "path": "zxing.net.mobile.forms/2.4.1",
       "hashPath": "zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+    },
+    "Mono.Android/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

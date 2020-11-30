@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarCodeTester.Android", "Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarCodeTester.iOS", "BarCodeTester\BarCodeTester.iOS\BarCodeTester.iOS.csproj", "{60AF71CB-B83E-403A-9B46-87AA978058EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarCodeTester", "BarCodeTester\BarCodeTester\BarCodeTester.csproj", "{D5B97F61-33BE-4632-B3D3-4AB01E497FE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarCodeTester", "BarCodeTester\BarCodeTester\BarCodeTester.csproj", "{D5B97F61-33BE-4632-B3D3-4AB01E497FE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

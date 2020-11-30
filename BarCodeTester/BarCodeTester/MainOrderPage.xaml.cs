@@ -1,4 +1,7 @@
-﻿using Android.Graphics.Pdf;
+﻿using Syncfusion.Pdf;
+using Syncfusion.Pdf.Parsing;
+using Syncfusion.Pdf.Graphics;
+using Syncfusion.Pdf.Grid;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,6 +13,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Syncfusion.Drawing;
 
 namespace BarCodeTester
 {
@@ -17,36 +21,40 @@ namespace BarCodeTester
     public partial class MainOrderPage : ContentPage
     {
         public static string root = "";
-        private void Sendemail(MemoryStream memoryStream)
-        {
-            try
-            {
+        DbUser currentUser = null;
+        DbAddress currentAddress = null;
+        //private void Sendemail(MemoryStream memoryStream)
+        //{
+        //    try
+        //    {
 
-                //Mail Body
-                MailMessage message = new MailMessage();
-                message.To.Add("hymatikorders@gmail.com");
-                message.From = new MailAddress("hymatikorders@gmail.com");
-                message.Subject = "Orders from mobile app";
-                Attachment attachment = new Attachment(root + @"/Output.pdf");//memoryStream, MediaTypeNames.Application.Pdf);
-                message.Attachments.Add(attachment);
-                message.Body = "";
+        //        //Mail Body
+        //        MailMessage message = new MailMessage();
+        //        message.To.Add("hymatikorders@gmail.com");
+        //        message.From = new MailAddress("hymatikorders@gmail.com");
+        //        message.Subject = "Orders from mobile app";
+        //        Attachment attachment = new Attachment(root + @"/Output.pdf");//memoryStream, MediaTypeNames.Application.Pdf);
+        //        message.Attachments.Add(attachment);
+        //        message.Body = "hola burro";
 
-                SmtpClient mailClient = new SmtpClient("smtp.gmail.com");
-                mailClient.Port = 587;
-                mailClient.EnableSsl = true;
-                //mailClient.Credentials = new NetworkCredential("hymatikodense@gmail.com", "hymatik123.");
-                mailClient.Credentials = new NetworkCredential("hymatikorders@gmail.com", "marketing123.");
-
-
-                mailClient.Send(message);
-            }
-            catch (Exception e) { }
+        //        SmtpClient mailClient = new SmtpClient("smtp.gmail.com");
+        //        mailClient.Port = 587;
+        //        mailClient.EnableSsl = true;
+        //        //mailClient.Credentials = new NetworkCredential("hymatikodense@gmail.com", "hymatik123.");
+        //        mailClient.Credentials = new NetworkCredential("hymatikorders@gmail.com", "marketing123.");
 
 
-        }
+        //        mailClient.Send(message);
+        //    }
+        //    catch (Exception e) { }
+
+
+        //}
         public MainOrderPage()
         {
             InitializeComponent();
+
+            OrderNow.Clicked += OrderNowBTN_Clicked;
 
             UserName.Clicked += async delegate
             {
@@ -69,22 +77,38 @@ namespace BarCodeTester
         private void Dalp_OnUserSelected(DbAddress result)
         {
             DeliveryAddress.Text = result.Address;
+            currentAddress = result;
         }
 
         private void Ulp_OnUserSelected(DbUser result)
         {
             UserName.Text = result.Name;
+            currentUser = result;
         }
 
         private void NewOrderBTN_Clicked(object sender, EventArgs e)
         {
-            //GetInputValues
-            string Clientnumber = clientnumber.Text;
-            string phoneNumber = phonenumber.Text;
-            string Company = company.Text;
-            string Cvrnumber = cvrnumber.Text;
-            string Deliveryaddress = deliveryaddress.Text;
-            string Order = order.Text;
+            Navigation.PushModalAsync(new MainPage());
+            
+        }
+        private void OrderNowBTN_Clicked(object sender, EventArgs e)
+        {
+            //ADICIONAR USERS A DATABASE
+            //App.Database.SaveUserAsync(dbuser);
+            
+            EmailTester email = new EmailTester();
+
+
+            //string Company = "teste";//company.Text;
+            //string Cvrnumber = "teste";//cvrnumber.Text;
+            //string Order = "teste";//order.Text;
+            //string phoneNumber = "teste";//phonenumber.Text;
+            StringBuilder products = new StringBuilder();
+
+            foreach(var product in ProductRepository.Instance.GetAllProducts())
+            {
+                products.AppendLine("\t * " + product);
+            }
 
             // Create a new PDF document
             PdfDocument document = new PdfDocument();
@@ -103,7 +127,10 @@ namespace BarCodeTester
             PdfFont font = new PdfStandardFont(PdfFontFamily.Helvetica, 20);
 
             //Draw the text
-            graphics.DrawString(string.Format(" {0}" + Environment.NewLine + "{1}" + Environment.NewLine + "{2}" + Environment.NewLine + "{3}" + Environment.NewLine + "{4}" + Environment.NewLine + "{5}", Clientnumber, phoneNumber, Company, Cvrnumber, Deliveryaddress, Order), font, PdfBrushes.Black, new PointF(0, 0));
+            graphics.DrawString(string.Format(" " +
+                "{0}" + Environment.NewLine + 
+                "{1}" + Environment.NewLine + 
+                "{2}" + Environment.NewLine, currentUser.ID + " - " + currentUser.Name, currentAddress.Address + " - " + currentAddress.ZipCode + " - " + currentAddress.City, products), font, PdfBrushes.Black, new PointF(0, 0));
 
             //Save the document to the stream
             MemoryStream stream = new MemoryStream();
@@ -114,14 +141,17 @@ namespace BarCodeTester
 
             //Save the stream as a file in the device and invoke it for viewing
             Task generatingDoc = Xamarin.Forms.DependencyService.Get<ISave>().SaveAndView("Output.pdf", "application/pdf", stream);
-            Sendemail(stream);
 
-            while (generatingDoc.Status != TaskStatus.RanToCompletion)
-            {
-                //
-            }
+            email.EmailSender(new MemoryStream(stream.ToArray()));
+
+            //while (generatingDoc.Status != TaskStatus.RanToCompletion)
+            //{
+            //    //
+            //}
 
             string g = "";
+
         }
     }
+
 }

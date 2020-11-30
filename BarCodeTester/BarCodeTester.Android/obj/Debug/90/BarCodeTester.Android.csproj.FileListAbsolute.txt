@@ -63,7 +63,6 @@ C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\o
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Core.dll
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Core.pdb
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Data.DataSetExtensions.dll
-C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Data.DataSetExtensions.pdb
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Data.dll
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Data.pdb
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Diagnostics.Debug.dll
@@ -514,3 +513,13 @@ C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\o
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Buffers.dll
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Memory.dll
 C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\Syncfusion.Compression.Portable.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\Syncfusion.Licensing.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\Syncfusion.Pdf.Portable.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Linq.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Reflection.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Reflection.Extensions.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Resources.ResourceManager.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Text.Encoding.CodePages.dll
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Text.Encoding.CodePages.pdb
+C:\Users\Ortega\source\repos\BarCodeTester\BarCodeTester\BarCodeTester.Android\obj\Debug\90\android\assets\System.Data.DataSetExtensions.pdb

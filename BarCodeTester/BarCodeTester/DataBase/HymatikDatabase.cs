@@ -35,11 +35,26 @@ namespace BarCodeTester
                     await Database.CreateTablesAsync(CreateFlags.None, typeof(DbAddress)).ConfigureAwait(false);
                 }
 
-                /*SaveAddressAsync(new DbAddress()
+                
+                
+                /* TEST USERS AND ADDRESSES IN DB
+                 * await SaveAddressAsync(new DbAddress()
                 {
-                    Address = "",
+                    Address = "Teste de addresse",
                     ZipCode = 1234,
                     City = "Outra coisa"
+                });
+
+                await SaveUserAsync(new DbUser()
+                {
+                    Name = "Pedro",
+                    PhoneNumber = "31313131"
+                });
+
+                await SaveUserAsync(new DbUser()
+                {
+                    Name = "Mark",
+                    PhoneNumber = "32323232"
                 });*/
 
                 initialized = true;

@@ -135,6 +135,37 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/18.3.0.51": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Compression/18.3.0.51": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/18.3.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.3.0.51",
+          "Syncfusion.Xamarin.Compression": "18.3.0.51"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -463,6 +494,69 @@
         "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/18.3.0.51": {
+      "sha512": "xIhu/6qkkofite0GEgjROcVRuERdxEQfIIFudYCXtKrWHceHolLHdUBJ/Y3PixmTAbSEKLko9FYCqLs6+/l8Jg==",
+      "type": "package",
+      "path": "syncfusion.licensing/18.3.0.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netcoreapp5.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.18.3.0.51.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Compression/18.3.0.51": {
+      "sha512": "+kL1NHbwoJjwX840gWmcK/aSzhQgZmTkkxUvJnuX8i/Gxse1hPg6l5CzwlRyZ9PI7Cvhogt/B01p0/rHD1nsfA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.compression/18.3.0.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.4/Syncfusion.Compression.Portable.dll",
+        "lib/netstandard1.4/Syncfusion.Compression.Portable.xml",
+        "lib/netstandard2.0/Syncfusion.Compression.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.Compression.Portable.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.xml",
+        "syncfusion.xamarin.compression.18.3.0.51.nupkg.sha512",
+        "syncfusion.xamarin.compression.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Pdf/18.3.0.51": {
+      "sha512": "m+QAnat90qzTq98phof0ZmGFDlIbex7U4kau1XU12TwFQ6Z+oLzG4sLZ9ARlQqku2NkXqoFrnf3qOyHYp0GLew==",
+      "type": "package",
+      "path": "syncfusion.xamarin.pdf/18.3.0.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.4/Syncfusion.Pdf.Portable.XML",
+        "lib/netstandard1.4/Syncfusion.Pdf.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.Pdf.Portable.XML",
+        "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.dll",
+        "syncfusion.xamarin.pdf.18.3.0.51.nupkg.sha512",
+        "syncfusion.xamarin.pdf.nuspec"
       ]
     },
     "System.Buffers/4.4.0": {
@@ -995,6 +1089,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "Syncfusion.Xamarin.Pdf >= 18.3.0.51",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.8.0.1560",
       "ZXing.Net.Mobile >= 2.4.1",
@@ -1049,6 +1144,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Xamarin.Pdf": {
+            "target": "Package",
+            "version": "[18.3.0.51, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EWVZni6RNkgOZK/O7+z5heJMeNM3iTsSmAVtNEKlaQTOvnVu9e0L1bVO7HOi4r0nEBG+cFoQJo5SQagyyGPb+w==",
+  "dgSpecHash": "CRv2epYDsmtuT46ae4RPbSR4FGVBAPWFcaeH41EsUmvrrWHTsw6LiV4p2LD/Bq2lWZaPskQ+yitjjAQd+nsaPw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ortega\\source\\repos\\BarCodeTester\\BarCodeTester\\BarCodeTester.iOS\\BarCodeTester.iOS.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\Ortega\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Ortega\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
     "C:\\Users\\Ortega\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\Ortega\\.nuget\\packages\\syncfusion.licensing\\18.3.0.51\\syncfusion.licensing.18.3.0.51.nupkg.sha512",
+    "C:\\Users\\Ortega\\.nuget\\packages\\syncfusion.xamarin.compression\\18.3.0.51\\syncfusion.xamarin.compression.18.3.0.51.nupkg.sha512",
+    "C:\\Users\\Ortega\\.nuget\\packages\\syncfusion.xamarin.pdf\\18.3.0.51\\syncfusion.xamarin.pdf.18.3.0.51.nupkg.sha512",
     "C:\\Users\\Ortega\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\Ortega\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Ortega\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
